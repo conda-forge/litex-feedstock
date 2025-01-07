@@ -1,6 +1,6 @@
 {% set name = "litex" %}
-{% set version = "2024.08" %}
-{% set sha256 = "9078137a0fa6f58c30204933092f9ce901418accd30b1a5edcb723fd1eb69376" %}
+{% set version = "2024.12" %}
+{% set sha256 = "afc435ccc86ef9dda79217334c9e5ba8c9991b2101e59d4420a28e188343cc1d" %}
 
 package:
   name: {{ name|lower }}
@@ -12,7 +12,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 1
+  number: 0
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv --no-build-isolation --no-deps
   entry_points:
