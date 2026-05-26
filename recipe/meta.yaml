@@ -1,10 +1,10 @@
 {% set name = "litex" %}
-{% set version = "2025.12" %}
-{% set sha256 = "1970085b6a5e643e77ad649f9d7d42952d20c94bfd48a11240ced99dc58246f1" %}
+{% set version = "2026.04" %}
+{% set sha256 = "1576b5b9c94bcdb4e7d4204e61bac277dff0e461589bba7b4e1a322f72cdb641" %}
 
 package:
   name: {{ name|lower }}
-  version: {{ version }}
+  version: "{{ version }}"
 
 source:
   fn: {{ version }}.tar.gz
