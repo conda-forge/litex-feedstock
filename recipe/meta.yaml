@@ -1,6 +1,6 @@
 {% set name = "litex" %}
-{% set version = "2026.04" %}
-{% set sha256 = "1576b5b9c94bcdb4e7d4204e61bac277dff0e461589bba7b4e1a322f72cdb641" %}
+{% set version = "2026.08" %}
+{% set sha256 = "aedd2972c6a927d4957e17bd8451dd209f4d57082623ea4f8180166a070d7e33" %}
 
 package:
   name: {{ name|lower }}
